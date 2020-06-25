@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="600dp">
+
+    <EditText
+        android:id="@+id/forname"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="179dp"
+        android:layout_marginEnd="17dp" />
+
+    <EditText
+        android:id="@+id/foraddress"
+        android:layout_width="172dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="15dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginRight="5dp"
+        android:text="SUBMIT"></Button>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="269dp"
+        android:layout_height="41dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="58dp"
+        android:text="Registration Form"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/takename"
+        android:layout_width="57dp"
+        android:layout_height="36dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="193dp"
+        android:layout_marginEnd="205dp"
+        android:text="Name:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/takeaddress"
+        android:layout_width="64dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="203dp"
+        android:text="Address:"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/takeemail"
+        android:layout_width="69dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="198dp"
+        android:layout_marginBottom="267dp"
+        android:text="Email Id:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/foremail"
+        android:layout_width="172dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="14dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/takenumber"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="349dp"
+        android:layout_marginEnd="197dp"
+        android:text="Phone Number:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/fornumber"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="344dp"
+        android:layout_marginEnd="12dp"
+        android:ems="10"
+        android:inputType="phone" />
+
+</RelativeLayout>
